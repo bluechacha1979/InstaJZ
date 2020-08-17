@@ -7,10 +7,10 @@
 <div class="row single-post">
     {% if object.author == user %}
     <div>
-        <a href="{% url 'post_update' object.pk %}">
+        <a href="{% url 'edit_post' object.pk %}">
             <button class="btn btn-primary">Edit Post</button>
         </a>
-        <a href="{% url 'post_delete' object.pk %}">
+        <a href="{% url 'delete_post' object.pk %}">
             <button class="btn btn-primary">Delete Post</button>
         </a>
     </div>
