@@ -1,4 +1,3 @@
-  
 {% extends "base.html" %}
 
 {% block content %}
@@ -7,7 +6,7 @@
   {% for post in object_list %}
     <div class="col-xs-4 col-sm-3">
       <div class="picture-square" style="background-image: url(http://{{ request.META.HTTP_HOST }}/{{ post.image }}); background-size: contain;">
-        <a href="{% url 'post_detail' post.pk %}">
+        <a href="{% url 'post' post.pk %}">
           <div class="content"></div>
         </a>
       </div>
