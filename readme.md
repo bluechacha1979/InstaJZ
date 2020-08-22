@@ -1,12 +1,12 @@
 
-Developed a RESTful API to allow users to book and review different tours.
-Built a Server-side User Interface rendering using Pug.js templates.
-Implemented back end using Node.js and Express along with MongoDB database stored on Atlas platform to support all the web requests.
-Implemented User Authorization using JWT and Security including encryption, sanitization and rate limiting.
-Developed advance features including credit card payments with Stripe.
+Developed a web application to allow users to follow/unfollow other users, make/update their own posts as well as like/unlike and comment on other users’ posts.
+Built a user-friendly User Interface using HTML, CSS, Bootstrap, Font Awesome, JavaScript.
+Implemented back end using Python, Django along with SQLite to handle different web requests.
+Implemented single page application using Ajax.
+
 
 Heroku Link
-https://obscure-chamber-15381.herokuapp.com/
+https://gentle-scrubland-82008.herokuapp.com/
 
-username: admin@natours.io
-password: test1234
+username: chacha
+password: chacha1218
